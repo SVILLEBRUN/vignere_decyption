@@ -22,7 +22,7 @@ This script helps you identify the key used to encrypt messages through statisti
    - **Unknown Key Size**: If you do not know the key size, the algorithm will generate the best guesses for keys of varying lengths (1 - 10). You can then test these keys to see which one successfully decrypts the message.
 3. **Command Line Usage**:
     ```bash
-    ./vigenere_key_finder.js <keyLength> <number_of_files> <file1> <file2> ...'
+        ./vigenere_key_finder.js <keyLength> <number_of_files> <file1> <file2> ...'
     ```
 
 
@@ -30,9 +30,9 @@ This script helps you identify the key used to encrypt messages through statisti
 
 This script decrypts encrypted messages given the correct key. Simply provide the encrypted text and the key, and it will output the decrypted message.
 
-**CommandLine Usage**:
+**Command Line Usage**:
     ```bash
-    ./vigenere_key_finder.js <keyLength> <number_of_files> <file1> <file2> ...
+        ./vigenere_key_finder.js <keyLength> <number_of_files> <file1> <file2> ...
     ```
 
 ## License

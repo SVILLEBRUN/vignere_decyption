@@ -30,7 +30,7 @@ This script helps you identify the key used to encrypt messages through statisti
 
 This script decrypts encrypted messages given the correct key. Simply provide the encrypted text and the key, and it will output the decrypted message.
 
-**CommandLine Usage**
+**CommandLine Usage**:
     ```bash
     ./vigenere_key_finder.js <keyLength> <number_of_files> <file1> <file2> ...
     ```
